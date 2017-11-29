@@ -10,10 +10,11 @@ My solutions to the popular exercism coding challenge platform
 * RNA Transcription
 * Hamming
 * Word Count
+* Gigasecond
 
 ## In Progress
 ### Python
-* Gigasecond
+* Bob
 
 ### Javascript (node)
 * Hello World
