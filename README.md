@@ -11,10 +11,11 @@ My solutions to the popular exercism coding challenge platform
 * Hamming
 * Word Count
 * Gigasecond
+* Bob
 
 ## In Progress
 ### Python
-* Bob
+* Run Length Encoding
 
 ### Javascript (node)
 * Hello World
