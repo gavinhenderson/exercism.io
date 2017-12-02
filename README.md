@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (9)
+## Completed (10)
 ### Python
 * Hello World
 * Leap
@@ -12,10 +12,11 @@ My solutions to the popular exercism coding challenge platform
 * Word Count
 * Gigasecond
 * Bob
+* Run Length Encoding
 
 ## In Progress (5)
 ### Python
-* Run Length Encoding
+* Meetup
 
 ### Javascript (node)
 * Hello World
