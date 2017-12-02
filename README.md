@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (12)
+## Completed (13)
 ### Python
 * Hello World
 * Leap
@@ -18,6 +18,9 @@ My solutions to the popular exercism coding challenge platform
 * Hello World
 * Leap
 
+### C
+* Hello World
+
 ## In Progress (5)
 ### Python
 * Meetup
@@ -30,4 +33,4 @@ My solutions to the popular exercism coding challenge platform
 * Leap
 
 ### C
-* Hello World
+* Leap
