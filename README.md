@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (16)
+## Completed (17)
 ### Python
 * Hello World
 * Leap
@@ -21,17 +21,19 @@ My solutions to the popular exercism coding challenge platform
 * RNA Transcription
 * Reverse String
 * Two-Fer
+* Simple-Cipher
 
 ### C
 * Hello World
 
-## In Progress (6)
+## In Progress (7)
 ### Python
 * Meetup
 * Bowling
+* ISBN-Verifier
 
 ### Javascript
-* Simple-Cipher
+* Pangram
 
 ### CPP
 * Hello World
