@@ -5,9 +5,9 @@ module.exports = class {
   }
 
   date(){
-    var endSeconds = new Date(Date.UTC(1970, 0, 1)); // Epoch
-    endSeconds.setSeconds(this.secondsPassed + 1000000000);
-    return endSeconds;
+    var startTime = this.startDate.getTime();
+  	var endDate = new Date(startTime + 1000000000000);
+  	return endDate;
   }
 
 
