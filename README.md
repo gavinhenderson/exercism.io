@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (18)
+## Completed (19)
 ### Python
 * Hello World
 * Leap
@@ -24,6 +24,7 @@ My solutions to the popular exercism coding challenge platform
 * Two-Fer
 * Simple-Cipher
 * Pangram
+* Gigasecond
 
 ### C
 * Hello World
@@ -35,7 +36,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Gigasecond
+* Space Age
 
 ### CPP
 * Hello World
