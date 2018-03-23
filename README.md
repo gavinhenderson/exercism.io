@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (21)
+## Completed (22)
 ### Python
 * Hello World
 * Leap
@@ -27,6 +27,7 @@ My solutions to the popular exercism coding challenge platform
 * Gigasecond
 * Space Age
 * Binary
+* Prime Factors
 
 ### C
 * Hello World
@@ -38,7 +39,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Prime Factors
+* Matrix
 
 ### CPP
 * Hello World
