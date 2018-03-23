@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (25)
+## Completed (26)
 ### Python
 * Hello World
 * Leap
@@ -29,6 +29,7 @@ My solutions to the popular exercism coding challenge platform
 * Binary
 * Prime Factors
 * Matrix
+* Linked List
 
 ### C
 * Hello World
@@ -40,7 +41,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Linked List
+* Pascals Triangle
 
 ### CPP
 * Hello World

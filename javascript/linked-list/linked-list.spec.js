@@ -8,28 +8,28 @@ describe('LinkedList', function () {
     expect(list.pop()).toBe(20);
     expect(list.pop()).toBe(10);
   });
-  xit('push/shift', function () {
+  it('push/shift', function () {
     var list = new LinkedList();
     list.push(10);
     list.push(20);
     expect(list.shift()).toBe(10);
     expect(list.shift()).toBe(20);
   });
-  xit('unshift/shift', function () {
+  it('unshift/shift', function () {
     var list = new LinkedList();
     list.unshift(10);
     list.unshift(20);
     expect(list.shift()).toBe(20);
     expect(list.shift()).toBe(10);
   });
-  xit('unshift/pop', function () {
+  it('unshift/pop', function () {
     var list = new LinkedList();
     list.unshift(10);
     list.unshift(20);
     expect(list.pop()).toBe(10);
     expect(list.pop()).toBe(20);
   });
-  xit('example', function () {
+  it('example', function () {
     var list = new LinkedList();
     list.push(10);
     list.push(20);
@@ -42,7 +42,7 @@ describe('LinkedList', function () {
     expect(list.pop()).toBe(50);
     expect(list.shift()).toBe(30);
   });
-  xit('can count its elements', function () {
+  it('can count its elements', function () {
     var list = new LinkedList();
     expect(list.count()).toBe(0);
     list.push(10);
@@ -50,7 +50,7 @@ describe('LinkedList', function () {
     list.push(20);
     expect(list.count()).toBe(2);
   });
-  xit('deletes the last element from the list', function () {
+  it('deletes the last element from the list', function () {
     var list = new LinkedList();
     list.push(10);
     list.push(20);
@@ -60,7 +60,7 @@ describe('LinkedList', function () {
     expect(list.pop()).toBe(30);
     expect(list.shift()).toBe(10);
   });
-  xit('deletes the only element', function () {
+  it('deletes the only element', function () {
     var list = new LinkedList();
     list.push(10);
     list.delete(10);
