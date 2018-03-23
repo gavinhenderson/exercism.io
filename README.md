@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (22)
+## Completed (24)
 ### Python
 * Hello World
 * Leap
