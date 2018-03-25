@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (28)
+## Completed (29)
 ### Python
 * Hello World
 * Leap
@@ -32,6 +32,7 @@ My solutions to the popular exercism coding challenge platform
 * Linked List
 * Pascals Triangle
 * Secret Handshake
+* Rotational Cipher
 
 ### C
 * Hello World
@@ -43,7 +44,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Rotational Cipher
+* Grade School
 
 ### CPP
 * Hello World
