@@ -7,79 +7,79 @@ describe('Word Problem', function () {
     expect(new WordProblem(question).answer()).toEqual(2);
   });
 
-  xit('add 2', function () {
+  it('add 2', function () {
     var question = 'What is 53 plus 2?';
     expect(new WordProblem(question).answer()).toEqual(55);
   });
 
-  xit('add negative numbers', function () {
+  it('add negative numbers', function () {
     var question = 'What is -1 plus -10?';
     expect(new WordProblem(question).answer()).toEqual(-11);
   });
 
-  xit('add more digits', function () {
+  it('add more digits', function () {
     var question = 'What is 123 plus 45678?';
     expect(new WordProblem(question).answer()).toEqual(45801);
   });
 
-  xit('subtract', function () {
+  it('subtract', function () {
     var question = 'What is 4 minus -12?';
     expect(new WordProblem(question).answer()).toEqual(16);
   });
 
-  xit('multiply', function () {
+  it('multiply', function () {
     var question = 'What is -3 multiplied by 25?';
     expect(new WordProblem(question).answer()).toEqual(-75);
   });
 
-  xit('divide', function () {
+  it('divide', function () {
     var question = 'What is 33 divided by -3?';
     expect(new WordProblem(question).answer()).toEqual(-11);
   });
 
-  xit('add twice', function () {
+  it('add twice', function () {
     var question = 'What is 1 plus 1 plus 1?';
     expect(new WordProblem(question).answer()).toEqual(3);
   });
 
-  xit('add then subtract', function () {
+  it('add then subtract', function () {
     var question = 'What is 1 plus 5 minus -2?';
     expect(new WordProblem(question).answer()).toEqual(8);
   });
 
-  xit('subtract twice', function () {
+  it('subtract twice', function () {
     var question = 'What is 20 minus 4 minus 13?';
     expect(new WordProblem(question).answer()).toEqual(3);
   });
 
-  xit('subtract then add', function () {
+  it('subtract then add', function () {
     var question = 'What is 17 minus 6 plus 3?';
     expect(new WordProblem(question).answer()).toEqual(14);
   });
 
-  xit('multiply twice', function () {
+  it('multiply twice', function () {
     var question = 'What is 2 multiplied by -2 multiplied by 3?';
     expect(new WordProblem(question).answer()).toEqual(-12);
   });
 
-  xit('add then multiply', function () {
+  it('add then multiply', function () {
     var question = 'What is -3 plus 7 multiplied by -2?';
     expect(new WordProblem(question).answer()).toEqual(-8);
   });
 
-  xit('divide twice', function () {
+  it('divide twice', function () {
     var question = 'What is -12 divided by 2 divided by -3?';
     expect(new WordProblem(question).answer()).toEqual(2);
   });
 
-  xit('too advanced', function () {
+  it('too advanced', function () {
     var question = 'What is 53 cubed?';
     var problem  = new WordProblem(question);
 
     expect(problem.answer.bind(problem)).toThrow(new ArgumentError());
   });
 
-  xit('irrelevant', function () {
+  it('irrelevant', function () {
     var question = 'Who is the president of the United States?';
     var problem  = new WordProblem(question);
 
