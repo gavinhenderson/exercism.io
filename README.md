@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (41)
+## Completed (42)
 ### Python
 * Hello World
 * Leap
@@ -45,6 +45,7 @@ My solutions to the popular exercism coding challenge platform
 * Phone Number
 * Anagram
 * Food Chain
+* ETL
 
 ### C
 * Hello World
@@ -56,7 +57,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* ETL
+* Sublist
 
 ### CPP
 * Hello World
