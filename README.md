@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (49)
+## Completed (50)
 ### Python
 * Hello World
 * Leap
@@ -53,6 +53,7 @@ My solutions to the popular exercism coding challenge platform
 * Perfect Numbers
 * Word Count
 * Acronym
+* Scrabble Score
 
 ### C
 * Hello World
@@ -64,7 +65,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Scrabble Score
+* Roman Numerals
 
 ### CPP
 * Hello World
