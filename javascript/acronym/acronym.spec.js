@@ -25,4 +25,3 @@ describe('Acronyms are produced from', function () {
     expect(Acronyms.parse('Complementary metal-oxide semiconductor')).toEqual('CMOS');
   });
 });
-
