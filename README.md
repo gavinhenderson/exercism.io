@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (55)
+## Completed (56)
 ### Python
 * Hello World
 * Leap
@@ -59,6 +59,7 @@ My solutions to the popular exercism coding challenge platform
 * Raindrops
 * Allergies
 * Strain
+* Atbash Cipher
 
 ### C
 * Hello World
@@ -70,7 +71,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Atbash Cipher
+* Accumulate
 
 ### CPP
 * Hello World
