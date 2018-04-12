@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (59)
+## Completed (60)
 ### Python
 * Hello World
 * Leap
@@ -63,6 +63,7 @@ My solutions to the popular exercism coding challenge platform
 * Accumulate
 * Crypto Squares
 * Trinary
+* Sieve
 
 ### C
 * Hello World
@@ -74,7 +75,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Sieve
+* Octal
 
 ### CPP
 * Hello World
