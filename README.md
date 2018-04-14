@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (63)
+## Completed (64)
 ### Python
 * Hello World
 * Leap
@@ -67,6 +67,7 @@ My solutions to the popular exercism coding challenge platform
 * Octal
 * Luhn
 * Pig Latin
+* Pythagorean Triplet
 
 ### C
 * Hello World
@@ -78,7 +79,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Pythagorean Triplet
+* Series
 
 ### CPP
 * Hello World
