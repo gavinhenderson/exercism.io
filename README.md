@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (67)
+## Completed (68)
 ### Python
 * Hello World
 * Leap
@@ -71,6 +71,7 @@ My solutions to the popular exercism coding challenge platform
 * Series
 * Difference of Squares
 * Proverb
+* Flatten Array
 
 ### C
 * Hello World
@@ -82,7 +83,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Flatten Array
+* Hexadecimal
 
 ### CPP
 * Hello World
