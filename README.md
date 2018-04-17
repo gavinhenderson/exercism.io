@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (71)
+## Completed (72)
 ### Python
 * Hello World
 * Leap
@@ -75,6 +75,7 @@ My solutions to the popular exercism coding challenge platform
 * Hexadecimal
 * Largest Series Product
 * Kindergarten Garden
+* Binary Search
 
 ### C
 * Hello World
@@ -86,7 +87,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Binary Search
+* Binary Search Tree
 
 ### CPP
 * Hello World
