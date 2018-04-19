@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (75)
+## Completed (76)
 ### Python
 * Hello World
 * Leap
@@ -79,6 +79,7 @@ My solutions to the popular exercism coding challenge platform
 * Binary Search Tree
 * Robot Simulator
 * Nth Prime
+* Palindrome Products
 
 ### C
 * Hello World
@@ -90,7 +91,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Palindrome Products
+* Say
 
 ### CPP
 * Hello World
