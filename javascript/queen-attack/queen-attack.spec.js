@@ -7,13 +7,13 @@ describe('Queens', function () {
     expect(queens.black).toEqual([7, 3]);
   });
 
-  xit('initialized with specific placement', function () {
+  it('initialized with specific placement', function () {
     var queens = new Queens({white: [3, 7], black: [6, 1]});
     expect(queens.white).toEqual([3, 7]);
     expect(queens.black).toEqual([6, 1]);
   });
 
-  xit('cannot occupy the same space', function () {
+  it('cannot occupy the same space', function () {
     var positioning = {white: [2, 4], black: [2, 4]};
 
     try {
@@ -25,7 +25,7 @@ describe('Queens', function () {
     }
   });
 
-  xit('toString representation', function () {
+  it('toString representation', function () {
     var positioning = {white: [2, 4], black: [6, 6]};
     var queens = new Queens(positioning);
     var board = '_ _ _ _ _ _ _ _\n' +
@@ -40,42 +40,42 @@ describe('Queens', function () {
     expect(queens.toString()).toEqual(board);
   });
 
-  xit('queens cannot attack', function () {
+  it('queens cannot attack', function () {
     var queens = new Queens({ white: [2, 3], black: [4, 7] });
     expect(queens.canAttack()).toEqual(false);
   });
 
-  xit('queens can attack when they are on the same row', function () {
+  it('queens can attack when they are on the same row', function () {
     var queens = new Queens({ white: [2, 4], black: [2, 7] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xit('queens can attack when they are on the same column', function () {
+  it('queens can attack when they are on the same column', function () {
     var queens = new Queens({ white: [5, 4], black: [2, 4] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xit('queens can attack diagonally', function () {
+  it('queens can attack diagonally', function () {
     var queens = new Queens({ white: [1, 1], black: [6, 6] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xit('queens can attack another diagonally', function () {
+  it('queens can attack another diagonally', function () {
     var queens = new Queens({ white: [0, 6], black: [1, 7] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xit('queens can attack yet another diagonally', function () {
+  it('queens can attack yet another diagonally', function () {
     var queens = new Queens({ white: [4, 1], black: [6, 3] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xit('queens can attack on a north-east/south-west diagonal', function () {
+  it('queens can attack on a north-east/south-west diagonal', function () {
     var queens = new Queens({ white: [7, 0], black: [0, 7] });
     expect(queens.canAttack()).toEqual(true);
   });
 
-  xit('queens can attack on another ne/sw diagonal', function () {
+  it('queens can attack on another ne/sw diagonal', function () {
     var queens = new Queens({ white: [2, 6], black: [5, 3] });
     expect(queens.canAttack()).toEqual(true);
   });

@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (79)
+## Completed (80)
 ### Python
 * Hello World
 * Leap
@@ -83,6 +83,7 @@ My solutions to the popular exercism coding challenge platform
 * Say
 * Custom Set
 * Sum of Multiples
+* Queen Attack
 
 ### C
 * Hello World
@@ -94,7 +95,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* Queen Attack
+* Saddle Points
 
 ### CPP
 * Hello World
