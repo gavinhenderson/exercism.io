@@ -14,7 +14,7 @@ describe('TwoBucket', function () {
       expect(twoBucket.otherBucket).toEqual(5); // leftover value in the "other" bucket once the goal has been reached
     });
 
-    xit('start with bucket two', function () {
+    it('start with bucket two', function () {
       var twoBucket = new TwoBucket(bucketOne, bucketTwo, goal, 'two');
 
       expect(twoBucket.moves()).toEqual(8);
@@ -28,7 +28,7 @@ describe('TwoBucket', function () {
     var bucketTwo = 11;
     var goal = 2;
 
-    xit('start with bucket one', function () {
+    it('start with bucket one', function () {
       var twoBucket = new TwoBucket(bucketOne, bucketTwo, goal, 'one');
 
       expect(twoBucket.moves()).toEqual(14);
@@ -36,7 +36,7 @@ describe('TwoBucket', function () {
       expect(twoBucket.otherBucket).toEqual(11);
     });
 
-    xit('start with bucket two', function () {
+    it('start with bucket two', function () {
       var twoBucket = new TwoBucket(bucketOne, bucketTwo, goal, 'two');
 
       expect(twoBucket.moves()).toEqual(18);
