@@ -1,7 +1,7 @@
 # My exercism.io solutions
 My solutions to the popular exercism coding challenge platform
 
-## Completed (87)
+## Completed (88)
 ### Python
 * Hello World
 * Leap
@@ -91,6 +91,7 @@ My solutions to the popular exercism coding challenge platform
 * Two Bucket
 * Bowling
 * Diamond
+* All Your Base
 
 ### C
 * Hello World
@@ -102,7 +103,7 @@ My solutions to the popular exercism coding challenge platform
 * ISBN-Verifier
 
 ### Javascript
-* All Your Base
+* Minesweeper
 
 ### CPP
 * Hello World
