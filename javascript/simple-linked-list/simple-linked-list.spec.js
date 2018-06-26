@@ -7,12 +7,12 @@ describe('simple-linked-list', function () {
     expect(List).toBeDefined();
   });
 
-  xit('exports a Element constructor', function () {
+  it('exports a Element constructor', function () {
     expect(Element).toBeDefined();
   });
 
   describe('Element', function () {
-    xit('is a constructor', function () {
+    it('is a constructor', function () {
       var el = new Element(1);
       expect(el).toBeDefined();
 
@@ -23,7 +23,7 @@ describe('simple-linked-list', function () {
       /* eslint-enable new-cap */
     });
 
-    xit('requires an argument', function () {
+    it('requires an argument', function () {
       var el = new Element(1);
       expect(el).toBeDefined();
 
@@ -32,25 +32,25 @@ describe('simple-linked-list', function () {
       }).toThrow();
     });
 
-    xit('has as a value', function () {
+    it('has as a value', function () {
       var el = new Element(1);
       expect(el.value).toBe(1);
     });
 
-    xit('reference to next is undefined by default', function () {
+    it('reference to next is undefined by default', function () {
       var el = new Element(1);
       expect(el.next).toBeUndefined();
     });
   });
 
-  xit('accepts a reference to the next element', function () {
+  it('accepts a reference to the next element', function () {
     var elOne = new Element(1);
     var elTwo = new Element(2, elOne);
     expect(elTwo.next).toBe(elOne);
   });
 
   /* eslint-disable no-unused-vars */
-  xit('requires an instance of Element as next element', function () {
+  it('requires an instance of Element as next element', function () {
     expect(function () {
       var el = new Element(1, false);
     }).toThrow();
@@ -67,12 +67,12 @@ describe('simple-linked-list', function () {
   /* eslint-enable no-unused-vars */
 
   describe('List', function () {
-    xit('is a constructor', function () {
+    it('is a constructor', function () {
       var ll = new List();
       expect(ll).toBeDefined();
     });
 
-    xit('allows you to append an element', function () {
+    it('allows you to append an element', function () {
       var ll = new List();
       var el = new Element(1);
       ll.push(el);
@@ -86,7 +86,7 @@ describe('simple-linked-list', function () {
       expect(ll2.head.next).toBe(elTwo);
     });
 
-    xit('allows you to prepend an element', function () {
+    it('allows you to prepend an element', function () {
       var ll = new List();
       var el = new Element(1);
       ll.unshift(el);
@@ -100,7 +100,7 @@ describe('simple-linked-list', function () {
       expect(ll2.head).toBe(elTwo);
     });
 
-    xit('allows you to remove the first element', function () {
+    it('allows you to remove the first element', function () {
       var ll = new List();
       ll.push(new Element(1));
       ll.shift();
@@ -112,7 +112,7 @@ describe('simple-linked-list', function () {
       expect(ll.head.value).toBe(3);
     });
 
-    xit('allows you to remove the last element', function () {
+    it('allows you to remove the last element', function () {
       var ll = new List();
       ll.push(new Element(1));
       ll.pop();
@@ -124,14 +124,14 @@ describe('simple-linked-list', function () {
       expect(ll.head.next).toBeUndefined();
     });
 
-    xit('allows you to convert an array to a List', function () {
+    it('allows you to convert an array to a List', function () {
       var ll = List.fromArray([1, 2]);
 
       expect(ll.head.value).toBe(1);
       expect(ll.head.next.value).toBe(2);
     });
 
-    xit('allows you to convert a List into an array', function () {
+    it('allows you to convert a List into an array', function () {
       var ll = new List();
       ll.push(new Element(1));
       ll.push(new Element(2));
@@ -146,7 +146,7 @@ describe('simple-linked-list', function () {
       expect(ll.head.next.value).toBe(2);
     });
 
-    xit('allows you to reverse a List', function () {
+    it('allows you to reverse a List', function () {
       var ll = new List();
       ll.push(new Element(1));
       ll.push(new Element(2));
