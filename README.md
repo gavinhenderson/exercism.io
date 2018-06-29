@@ -2,7 +2,7 @@
 
 My solutions to the popular exercism coding challenge platform
 
-## Completed (91)
+## Completed (92)
 
 ### Python
 
@@ -99,6 +99,7 @@ My solutions to the popular exercism coding challenge platform
 - Minesweeper
 - Alphametics
 * Linked List
+* Diffie Hellman
 
 ### C
 
@@ -114,7 +115,7 @@ My solutions to the popular exercism coding challenge platform
 
 ### Javascript
 
-- Diffie Hellman
+- Change
 
 ### CPP
 

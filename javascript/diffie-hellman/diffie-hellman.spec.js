@@ -17,51 +17,51 @@ describe('diffie-hellman', function () {
     }).toThrow();
   });
 
-  xit('throws an error if the constructor arguments are not prime', function () {
+  it('throws an error if the constructor arguments are not prime', function () {
     expect(function () {
       return new DiffieHellman(10, 13);
     }).toThrow();
   });
 
-  xit('throws an error if private key is negative', function () {
+  it('throws an error if private key is negative', function () {
     expect(function () {
       diffieHellman.getPublicKeyFromPrivateKey(-1);
     }).toThrow();
   });
 
-  xit('throws an error if private key is zero', function () {
+  it('throws an error if private key is zero', function () {
     expect(function () {
       diffieHellman.getPublicKeyFromPrivateKey(0);
     }).toThrow();
   });
 
-  xit('throws an error if private key is one', function () {
+  it('throws an error if private key is one', function () {
     expect(function () {
       diffieHellman.getPublicKeyFromPrivateKey(1);
     }).toThrow();
   });
 
-  xit('throws an error if private key equals the modulus parameter p', function () {
+  it('throws an error if private key equals the modulus parameter p', function () {
     expect(function () {
       diffieHellman.getPublicKeyFromPrivateKey(p);
     }).toThrow();
   });
 
-  xit('throws an error if private key is greater than the modulus parameter p', function () {
+  it('throws an error if private key is greater than the modulus parameter p', function () {
     expect(function () {
       diffieHellman.getPublicKeyFromPrivateKey(p + 1);
     }).toThrow();
   });
 
-  xit('when given a private key, returns the correct public one', function () {
+  it('when given a private key, returns the correct public one', function () {
     expect(diffieHellman.getPublicKeyFromPrivateKey(alicePrivateKey)).toEqual(alicePublicKey);
   });
 
-  xit('when given a different private key, returns the correct public one', function () {
+  it('when given a different private key, returns the correct public one', function () {
     expect(diffieHellman.getPublicKeyFromPrivateKey(bobPrivateKey)).toEqual(bobPublicKey);
   });
 
-  xit('can generate a shared secret from our private key and their public key', function () {
+  it('can generate a shared secret from our private key and their public key', function () {
     var sharedSecret = 2;
 
     expect(diffieHellman.getSharedSecret(alicePrivateKey, bobPublicKey))
