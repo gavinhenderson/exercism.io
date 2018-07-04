@@ -2,7 +2,7 @@
 
 My solutions to the popular exercism coding challenge platform
 
-## Completed (92)
+## Completed (93)
 
 ### Python
 
@@ -100,6 +100,7 @@ My solutions to the popular exercism coding challenge platform
 - Alphametics
 * Linked List
 * Diffie Hellman
+* Change
 
 ### C
 
@@ -115,7 +116,7 @@ My solutions to the popular exercism coding challenge platform
 
 ### Javascript
 
-- Change
+- Connect
 
 ### CPP
 
