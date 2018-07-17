@@ -2,7 +2,11 @@
 
 My solutions to the popular exercism coding challenge platform
 
-## Completed (93)
+## Completed (94)
+
+### Rust
+
+- Hello World
 
 ### Python
 
@@ -98,6 +102,7 @@ My solutions to the popular exercism coding challenge platform
 - All Your Base
 - Minesweeper
 - Alphametics
+
 * Linked List
 * Diffie Hellman
 * Change
@@ -107,6 +112,10 @@ My solutions to the popular exercism coding challenge platform
 - Hello World
 
 ## In Progress (7)
+
+### Rust
+
+- Pythagorean Triplet
 
 ### Python
 

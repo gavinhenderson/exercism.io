@@ -1,7 +1,7 @@
 var Board = require('./connect');
 
 describe('Judging a game of connect', function () {
-  it('an empty board has no winner', function () {
+  xit('an empty board has no winner', function () {
     var board = [
       '. . . . .',
       ' . . . . .',
@@ -58,7 +58,7 @@ describe('Judging a game of connect', function () {
     expect(new Board(board).winner()).toEqual('');
   });
 
-  xit('X wins crossing from left to right', function () {
+  it('X wins crossing from left to right', function () {
     var board = [
       '. O . .',
       ' O X X X',
