@@ -4,13 +4,14 @@ My solutions to the popular exercism coding challenge platform.
 
 To learn more about the platform visit [exercism.io](https://exercism.io/)
 
-## Completed (97)
+## Completed (98)
 
 ### TypeScript
 
 - Hello World
 - Leap
 - RNA Transcription
+- Space Age
 
 ### Rust
 
