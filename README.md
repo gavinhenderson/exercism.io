@@ -4,11 +4,12 @@ My solutions to the popular exercism coding challenge platform.
 
 To learn more about the platform visit [exercism.io](https://exercism.io/)
 
-## Completed (95)
+## Completed (96)
 
 ### TypeScript
 
 - Hello World
+- Leap
 
 ### Rust
 
