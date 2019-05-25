@@ -4,7 +4,7 @@ My solutions to the popular exercism coding challenge platform.
 
 To learn more about the platform visit [exercism.io](https://exercism.io/)
 
-## Completed (100)
+## Completed (101)
 
 ### TypeScript
 
@@ -14,6 +14,7 @@ To learn more about the platform visit [exercism.io](https://exercism.io/)
 - Space Age
 - Pangram
 - Bob
+- Matrix
 
 ### Rust
 
