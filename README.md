@@ -4,7 +4,7 @@ My solutions to the popular exercism coding challenge platform.
 
 To learn more about the platform visit [exercism.io](https://exercism.io/)
 
-## Completed (102)
+## Completed (104)
 
 ### TypeScript
 
@@ -16,6 +16,8 @@ To learn more about the platform visit [exercism.io](https://exercism.io/)
 - Bob
 - Matrix
 - Robot Names
+- Grade School
+- Clock
 
 ### Rust
 
