@@ -4,7 +4,7 @@ My solutions to the popular exercism coding challenge platform.
 
 To learn more about the platform visit [exercism.io](https://exercism.io/)
 
-## Completed (104)
+## Completed (105)
 
 ### TypeScript
 
@@ -18,6 +18,7 @@ To learn more about the platform visit [exercism.io](https://exercism.io/)
 - Robot Names
 - Grade School
 - Clock
+- Secret Handshake
 
 ### Rust
 
